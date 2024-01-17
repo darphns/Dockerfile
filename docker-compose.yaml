@@ -1,0 +1,13 @@
+version: '3'
+services:
+  mysql:
+    build: ./mysql
+    ports:
+      - '3306:3306'
+  myphp:
+    build: ./php
+    ports:
+      - '8080:80'
+    depends_on:
+      - mysql
+
