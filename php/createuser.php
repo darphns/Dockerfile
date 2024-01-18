@@ -1,5 +1,5 @@
 <?php
-$servername = "15.206.94.237";
+$servername = "54.84.4.193";
 $username = "school";
 $password = "school";
 $useremail = $_POST['user_email'];

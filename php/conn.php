@@ -1,5 +1,5 @@
 <?php
-$servername = "15.206.94.237";
+$servername = "mysql";
 $username = "root";
 $password = "mysql100";
 //phpinfo();
